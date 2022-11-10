@@ -1,0 +1,29 @@
+{
+    "name":"secandp/posts",
+    "description":"description",
+    "minimum-stability":"stable",
+    "license":"MIT",
+    "authors":[
+        {
+            "name":"secando",
+            "email":"xz@s.ru"
+        }
+    ],
+    "require":{
+        "php": "^8.0.2"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Secando\\Posts\\Provides\\PostsServiceProvider"
+            ]
+           
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Secando\\Posts\\":"src"
+        }
+    }
+   
+}
